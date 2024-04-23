@@ -28,6 +28,7 @@
 			// Horizontal alignment.
 				@if ($horizontal-align != null) {
 					text-align: $horizontal-align;
+					justify-content: $horizontal-align
 				}
 
 		// Cells.
